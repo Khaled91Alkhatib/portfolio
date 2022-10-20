@@ -4,6 +4,7 @@ import { AppWrap } from '../../wrapper';
 import { motion } from 'framer-motion';
 import { images } from '../../constants';
 import "./Header.scss";
+import pdf from '../../assets/Resume (1).pdf'
 
 
 const scaleVariants = {
@@ -38,6 +39,10 @@ const Header = () => {
             <p className='p-text'>Frontend Web Developer</p>
             <p className='p-text'>I bring ideas to life in the browser</p>
           </div>
+          <div className='tag-cmp app__flex'>
+          <p className='p-text'>Check out my <a href={pdf} target="_blank" rel="noopener noreferrer"><span className='p-text resume' style={{ fontSize: '12.8px', fontWeight: 500 }}>RESUME</span></a></p>
+          </div>
+
         </div>
       </motion.div>
 
