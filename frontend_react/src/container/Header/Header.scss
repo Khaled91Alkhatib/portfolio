@@ -186,6 +186,25 @@
   }
 }
 
-.resume:hover{
+.resume {
+  font-size: 0.8rem;
+  text-align: left;
+  color: var(--gray-color);
+  line-height: 1.5;
+  font-weight: 900;
+
+  @media screen and (min-width: 2000px) {
+    font-size: 1.75rem;
+  }
+
+  &:hover {
     color: var(--secondary-color);
   }
+}
+
+.p-text {
+
+  a {
+    text-decoration: none;
+  }
+}
