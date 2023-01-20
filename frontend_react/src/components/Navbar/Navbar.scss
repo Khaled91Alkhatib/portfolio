@@ -6,7 +6,9 @@
   padding: 1rem 2rem;
   background: rgba(255, 255, 255, 0.25); //The 4th "parameter" is the opacity
   backdrop-filter: blur(4px); // Makes anything below it a bit blurry
-  -webkit-backdrop-filter: blur(4px); // This is used because not all browesers support backdrop-filter
+  -webkit-backdrop-filter: blur(
+    4px
+  ); // This is used because not all browesers support backdrop-filter
   border: 1px solid rgba(255, 255, 255, 0.18);
   position: fixed;
   z-index: 2;
@@ -19,11 +21,9 @@
 
   img {
     width: 135px;
-    // height: 20px;
 
     @media screen and (min-width: 2000px) {
       width: 180px;
-      // height: 40px;
     }
   }
 }

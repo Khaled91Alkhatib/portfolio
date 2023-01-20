@@ -1,6 +1,6 @@
 #home {
   position: relative;
-  background: url('../../assets/bgIMG.png');
+  background: url("../../assets/bgIMG.png");
   background-size: cover; // Always do this whenever you are using an image as a background
   background-repeat: repeat;
   background-position: center;
@@ -71,7 +71,6 @@
 
     p {
       width: 100%;
-      // text-transform: uppercase;
       text-align: right;
     }
   }
@@ -203,7 +202,6 @@
 }
 
 .app__header-badge {
-
   a {
     text-decoration: none;
   }
