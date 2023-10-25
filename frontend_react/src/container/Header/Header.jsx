@@ -36,8 +36,8 @@ const Header = () => {
             </div>
           </div>
           <div className='tag-cmp app__flex'>
-            <p className='p-text'>Frontend Web Developer</p>
-            <p className='p-text'>I bring ideas to life in the browser</p>
+            <p className='p-text'> Full Stack / Frontend Web Developer.</p>
+            <p className='p-text'>I bring ideas to life in the browser.</p>
           </div>
           <a href={pdf} target="_blank" rel="noopener noreferrer">
             <div className='tag-cmp app__flex'>
