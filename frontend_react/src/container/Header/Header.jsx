@@ -4,7 +4,7 @@ import { AppWrap } from '../../wrapper';
 import { motion } from 'framer-motion';
 import { images } from '../../constants';
 import "./Header.scss";
-import pdf from '../../assets/khaledalkhatib.pdf';
+import pdf from '../../assets/Khaled Alkhatib-Fullstack:Frontend Resume.pdf';
 
 
 const scaleVariants = {
